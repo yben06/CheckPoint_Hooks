@@ -1,12 +1,19 @@
 .App {
   text-align: center;
 }
-img {
-  width: 250px;
-  
+.star {
+  display: flex;
+  justify-content: center;
 }
-.btn-light{
-  margin-top: -30px;
+.btn {
+  margin-top: 1%;
+  background-color: rgb(29, 50, 168);
+}
+.movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 9%;
+  padding-top: 2%;
 }
 .App-logo {
   height: 40vmin;
@@ -19,6 +26,9 @@ img {
   }
 }
 
+.img-movie {
+  height: 400px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,7 +38,6 @@ img {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-top: -30px;
 }
 
 .App-link {
